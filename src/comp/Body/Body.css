@@ -1,0 +1,67 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.body ul{
+    padding-left: 50px;
+}
+.body li{
+    margin: 25px 0px;
+}
+.content{
+    padding: 20px;
+}
+.list li{
+    margin: 15px 0px;
+}
+.visit{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.skills button, .visit button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.skills button:hover, .visit button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.project{
+    padding-left: 20px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.skill-list{
+    display: flex;
+    gap: 10px;
+}
+.line{
+    background-color: gainsboro;
+    height: 4px;
+    border-radius: 20px;
+    width: 90px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

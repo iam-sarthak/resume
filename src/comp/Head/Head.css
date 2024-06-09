@@ -1,0 +1,42 @@
+.head{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.socialicons img{
+    height: 23px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.techstack{
+    font-size: large;
+    font-weight: 450;
+}
+.letsconnect{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.socialicons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+.logo img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+    
+}
