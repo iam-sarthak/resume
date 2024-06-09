@@ -40,3 +40,10 @@
 
     
 }
+
+@media (max-width:1050px) {
+    .head{
+        flex-direction: column;
+        width: 90%;
+    }
+}
