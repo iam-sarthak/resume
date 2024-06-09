@@ -16,26 +16,27 @@ function Head() {
         <div className="name"> Sarthak Mittal</div>
         <div className="line"></div>
         <div className="techstack">Master Student at TIET | JavaScript | Freelancer | opensource</div>
-        <div className="letsconnect">🤝 let's Connect</div>
+        <a href="mailto:sarmittal@gmail.com"><div className="letsconnect">🤝 let's Connect</div></a>
+        
         <div className="socialicons">
-          <a href="http://">
+          <a href="https://github.com/iam-sarthak">
             <img src={github} alt="" />
           </a>
-          <a href="http://">
+          <a href="https://www.linkedin.com/in/sarthak-mittal-/">
             <img src={linkedin} alt="" />
           </a>
-          <a href="http://">
+          <a href="https://dev.to/sarmittal">
             <img src={dev} alt="" />
           </a>
-          <a href="http://">
+          {/* <a href="http://">
             <img src={facebook} alt="" srcset="" />{" "}
-          </a>
-          <a href="http://">
+          </a> */}
+          <a href="https://twitter.com/sarmittal">
             <img src={twitter} alt="" />
           </a>
-          <a href="http://">
+          {/* <a href="http://">
             <img src={instagram} alt="" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
