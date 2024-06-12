@@ -38,9 +38,9 @@ const Body = () => {
                 <li>{data.skills}</li>
               </ul>
               <div className="visit">
-              <button style={data.demolink==""?{display:'none'}:{display:'block'}}><a href={data.demolink}></a>Live Demo</button>
-                <button style={data.codelink==""?{display:'none'}:{display:'block'}}><a href={data.codelink}></a>View Code</button>
-                <button style={data.bloglink==""?{display:'none'}:{display:'block'}}><a href={data.bloglink}></a>View Blog post</button>
+              <a target='_blank' href={data.demolink}><button style={data.demolink==""?{display:'none'}:{display:'block'}}> Live Demo</button></a>
+                <a target='_blank' href={data.codelink}><button style={data.codelink==""?{display:'none'}:{display:'block'}}> View Code</button></a>
+                <a target='_blank' href={data.bloglink}><button style={data.bloglink==""?{display:'none'}:{display:'block'}}> View Blog post</button></a>
 
               </div>
               </div>
