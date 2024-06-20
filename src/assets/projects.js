@@ -38,6 +38,26 @@ export const projects = [
     demolink:"https://raw.githack.com/iam-sarthak/Sorting-Visualizer/main/Index.html",
     codelink:"https://github.com/iam-sarthak/Sorting-Visualizer",
     bloglink:""
+},
+{
+    image:"",
+    name:"Guitar - Interactive Musical Experience",
+    time:"jun 2024 - Jun 2024",
+    skills:"HTML5 · JavaScript · Cascading Style Sheets (CSS) · Bootstrap · Front-End Development",
+    decription:"Key Features: \n -Interactive SVG Animation: Strings dynamically adjust their curves based on mouse movement, creating a realistic plucking effect.\n-Dynamic Audio Playback: Each string plays a specific note when interacted with, enhancing the immersive experience.",
+    demolink:"https://guitar-sm.netlify.app/",
+    codelink:"https://github.com/iam-sarthak/guitar",
+    bloglink:"https://dev.to/sarmittal/guitar-interactive-musical-experience-with-svg-and-gsap-1kn5"
+},
+{
+    image:"",
+    name:"DELICIRO - Food Ordering Website",
+    time:"May 2024 - Jun 2024",
+    skills:"HTML5 · JavaScript · Cascading Style Sheets (CSS) · Bootstrap · Front-End Development",
+    decription:"I've just started a new project - DELICIRO, a fully functional food ordering website built using React.js, HTML, and CSS. This project has been an incredible learning experience, enhancing my skills in systematic coding, advanced CSS, and React.js implementation. \nNote: i take the guidance from a youtube video",
+    demolink:"https://deliciro.netlify.app/",
+    codelink:"https://github.com/iam-sarthak/deliciro",
+    bloglink:"https://dev.to/sarmittal/deliciro-food-ordering-website-43cj"
 }
 ];
 
